@@ -1,4 +1,6 @@
-# Mixed Messages Javascript app
+# Inspiring quote app
+
+An app developed in response to Mixed Messages assignment by Codecademy
 
 ## Purpose
 
