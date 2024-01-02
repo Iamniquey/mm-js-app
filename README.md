@@ -5,7 +5,7 @@ An app developed in response to Mixed Messages assignment by Codecademy
 ## Purpose
 
 - Display random message to user
-- Utilize Got commands
+- Utilize Git commands
 - Utilize command line
 
 ## How to Use
