@@ -8,9 +8,9 @@ An app developed in response to Mixed Messages assignment by Codecademy
 - Utilize Got commands
 - Utilize command line
 
-## How to use
+## How to Use
 
-- Type the following into the command line
+Type the following into the command line to run
 
 ```
 node main.js
