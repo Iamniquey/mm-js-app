@@ -11,8 +11,20 @@ const messages = [
   "You can do anything you set your mind to.",
 ];
 
-const randomMessage = () => {
-  return messages[Math.floor(Math.random() * messages.length)];
+const verbs = [" should", " can", " may"];
+const adverbs = [" not", ""];
+const timePeriods = [" today", " tomorrow", " next week"];
+
+const randomChoice = (arr) => {
+  return arr[Math.floor(Math.random() * arr.length)];
 };
 
-console.log(randomMessage());
+const giveAdvice = () => {
+  return `${randomChoice(messages)} So you${randomChoice(verbs)}${randomChoice(
+    adverbs
+  )} continue with your plans${randomChoice(timePeriods)}.`;
+};
+
+console.log(giveAdvice());
+
+// run by typing "node main.js" into the command line

@@ -1,4 +1,4 @@
-# Inspiring quote app
+# Advice App
 
 An app developed in response to Mixed Messages assignment by Codecademy
 
@@ -7,3 +7,11 @@ An app developed in response to Mixed Messages assignment by Codecademy
 - Display random message to user
 - Utilize Got commands
 - Utilize command line
+
+## How to use
+
+- Type the following into the command line
+
+```
+node main.js
+```
